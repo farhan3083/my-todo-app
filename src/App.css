@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #c8d4b696;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 100vh;
+}
+
+.app-wraper {
+   background-color: #6a3545;
+   min-width: 450px;
+   min-height: 650px;
+   padding: 30px;
+   box-sizing: border-box;
+   border-radius: 10px;
+   box-shadow: 3px 6px 40px #000;
+   margin-bottom: 10px;
+}
+
+.header h1 {
+    color: aliceblue;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.task-input {
+    outline: none;
+    width: 260px;
+    padding: 6px;
+    margin-right: 25px;
+    font-size: 20px;
+    color: #ccc;
+    background-color: #01010e;
+    border: 1px solid #12997a;
+    border-radius: 10px;
+}
+
+.button-add {
+    width: 100px;
+    padding: 7px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #12997a;
+    cursor: pointer;
+    
+}
+.button-add:hover{
+     transform: (1.5,1.5);
+     background-color: rgb(119, 182, 237);
+}
+.button-update{
+    width: 100px;
+    padding: 7px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #e2d029;
+    cursor: pointer;
+
+}
+
+.list-item {
+    display: flex;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    max-height:50px ;
+    justify-content: space-between;
+    background-color: #443d3c;
+}
+
+.button-delete,
+.button-edit {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+
+
+.button-edit{
+    color: #e2d029;
+    margin-right: 10px;
+
+}
+.button-edit:hover{
+    /* color: red; */
+    transform: scale(1.25,1.25);
+}
+
+.button-delete {
+    color:#06a45a;
+}
+.button-delete:hover{
+    color: red;
+    transform: scale(1.25,1.25);
+}
+
+
+
+.list {
+    /* width: 220px; */
+    /* background-color: #12343b; */
+    border: none;
+    color: #ccc;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-right: 15px;
+
+}
+input:focus,
+button:focus {
+    outline: none;
+}
